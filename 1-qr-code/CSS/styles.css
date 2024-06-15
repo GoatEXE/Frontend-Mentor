@@ -13,7 +13,7 @@ body {
 
 img {
   height: 330px;
-  width: 280px;
+  width: 290px;
   border-radius: 5%;
 }
 
@@ -29,7 +29,6 @@ p {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  margin-top: 15px;
 }
 
 
@@ -37,7 +36,7 @@ p {
 .card {
   width: 320px;
   height: 500px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5%;
 }
 
