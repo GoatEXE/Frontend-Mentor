@@ -1,0 +1,53 @@
+:root {
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --attribution: hsl(228, 45%, 44%);
+}
+
+
+/* HTML Elements */
+body {
+  background-color: var(--light-gray);
+}
+
+img {
+  height: 330px;
+  width: 280px;
+  border-radius: 5%;
+}
+
+h1 {
+  color: var(--dark-blue);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  color: var(--grayish-blue);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+/* Main */
+.card {
+  width: 320px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--attribution);
+}
